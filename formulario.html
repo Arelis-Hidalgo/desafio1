@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desaf&iacuteo 1</title>
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body class="pagina">
+        <div id="banda">
+            <nav>
+                <ul>
+                    <li><a href="formulario.html">Formulario</a></li>
+                    <li><a href="tabla.html">Tabla</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 class="Titulo">Formulario</h1>
+        <form action="tabla.html" method="post" class="formulario">
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <br>
+                <input type="text" name="nombre" id="Nombre" required placeholder="Escriba su nombre completo."/>
+            </div>
+            <div>
+                <label for="E-mail">E-mail:</label>
+                <br>
+                <input type="email" name="email" id="E-mail" required placeholder="Escriba su e-mail."/>
+            </div>
+            <div>
+                <label for="Telefono">Tel&eacutefono:</label>
+                <br>
+                <input type="tel" name="telefono" id="Telefono" required placeholder="Escriba su Teléfono." size="9"/>
+            </div>
+            <div>
+                <label  for="Fecha de Nacimiento">Fecha De Nacimiento:</label>
+                <br>
+                <input  type="date" name="fecha" id="Fecha" />
+            </div>
+            <div>
+                <label for="Año de Ingreso">A&ntildeo de Ingreso:</label>
+                <br>
+                <input type="text" name="ingreso" id="Año de Ingreso" required placeholder="Escriba su año de ingreso."/>
+            </div> 
+            <div >
+                <label for="Carrera">Carrera:</label>
+                <br>
+                <input type="radio" name="carrera" id="Carrera1" value="Informatica"/>Ingenier&iacutea Inform&aacutetica.
+                <br>
+                <input type="radio" name="carrera" id="Carrera2" value="Civil Informatica"/>Ingenier&iacutea Civil Inform&aacutetica.
+                <br>
+                <input type="radio" name="carrera" id="Carrera3" value="Industrial mencion Informatica"/>Ingenier&iacutea Civil Industrial menci&oacuten Inform&aacutetica.
+            </div>   
+            <div class="button">
+                <button type="submit">
+                    Enviar</button>
+            </div>
+
+        </form>
+    </body>
+</html>

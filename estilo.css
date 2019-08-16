@@ -1,0 +1,98 @@
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1.5em;
+    text-align: left;
+}
+
+.Titulo{
+    margin: 0 auto;
+    width: 350px;
+    padding: 1em;
+    text-align: center;
+}
+
+
+.pagina{
+    background-color: lightcoral;
+    color: rgb(247, 247, 247);
+    font-family: Cambria;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a, button {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+button{
+    width: 400px;
+    height: 44px;
+    text-align: center;
+}
+  
+li a:hover, button {
+    background-color: #111;
+   
+}
+
+li{
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+input{
+    text-align: left;
+    width: 400px;
+    height: 26px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#Carrera1, #Carrera2, #Carrera3 {
+    height: 18px;
+    text-align: left;
+    width: 50px;
+}
+
+div #Fecha{
+    text-align: left;
+}
+
+.formulario{
+    text-align: left;
+}
+
+table, th, td {
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 8px;
+}
+
+table{
+    background-color: lightgreen;
+    color: black;
+    
+}
+
+td{
+    background-color: white;
+}
+
